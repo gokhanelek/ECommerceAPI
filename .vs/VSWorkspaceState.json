@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\ECommerceAPI.API",
+    "\\ECommerceAPI.API\\Controllers",
+    "\\Infrastructure",
+    "\\Infrastructure\\ECommerceAPI.Persistence",
+    "\\Infrastructure\\ECommerceAPI.Persistence\\Contexts"
+  ],
+  "SelectedNode": "\\ECommerceAPI.API\\Controllers\\ProductsController.cs",
+  "PreviewInSolutionExplorer": false
+}
