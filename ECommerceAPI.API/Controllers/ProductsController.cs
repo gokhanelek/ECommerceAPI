@@ -22,17 +22,9 @@ namespace ECommerceAPI.API.Controllers
         {
             await _productWriteRepository.AddRangeAsync(new()
             {
-                new() {Id= Guid.NewGuid(), Name = "Product 1", Price=100, CreateDate= DateTime.UtcNow, Stock=10},
-                new() {Id= Guid.NewGuid(), Name = "Product 2", Price=200, CreateDate= DateTime.UtcNow, Stock=20},
-                new() {Id= Guid.NewGuid(), Name = "Product 3", Price=300, CreateDate= DateTime.UtcNow, Stock=30},
+                new() {Id= Guid.NewGuid(), Name = "C Product", Price=1.500F, CreatedDate= DateTime.UtcNow, Stock=10},
             });
             await _productWriteRepository.SaveAsync();
-        }
-        [HttpGet("{id}")]
-        public async Task<IActionResult> Get(string id)
-        {
-            Product product = await _productReadRepository.GetByIdAsync(id);
-            return Ok(product);
         }
     }
 }
