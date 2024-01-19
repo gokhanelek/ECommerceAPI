@@ -1,5 +1,4 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using ECommerceAPI.Application.Abstractions;
 using ECommerceAPI.Persistence.Contexts;
 using Microsoft.Extensions.DependencyInjection;
 using System;
